@@ -9,10 +9,10 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 })
 export class AlbumsComponent implements OnInit {
 
-  private topAlbums: any;
-  private apiData: any;
-  private p: 1;
-  private albumSelected: any;
+  public topAlbums: any;
+  public apiData: any;
+  public p: 1;
+  public albumSelected: any;
   public searchTerm: string;
   
   constructor(
