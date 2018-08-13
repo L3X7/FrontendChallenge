@@ -1,0 +1,28 @@
+@red: #c80913;
+@height: 550px;
+
+#mycarousel {
+    .carousel-indicators {
+        .active {
+            background-color: @red;
+        }
+    }
+    .carousel-inner {
+        .carousel-item {
+            height: @height;
+            background-size: cover !important;
+            background-position: center !important;
+            .carousel-caption {
+                h5 {
+                    font-size: 2rem;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.7);
+                }
+                p {
+                    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.7);
+                }
+            }
+        }
+    }
+}
